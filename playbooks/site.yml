@@ -241,5 +241,5 @@
   become: true
   tasks:
     - name: Install dependencies
-  shell:
-    cmd: bash -c "$(curl -L https://raw.githubusercontent.com/OguzPastirmaci/tifr-cn/master/dependencies.sh)"
+      shell:
+        cmd: bash -c "$(curl -L https://raw.githubusercontent.com/OguzPastirmaci/tifr-cn/master/dependencies.sh)"
