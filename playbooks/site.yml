@@ -237,7 +237,7 @@
 
 - import_playbook: examples.yml
 
-- hosts: all
+- hosts: compute
   become: true
   tasks:
     - name: Install dependencies
