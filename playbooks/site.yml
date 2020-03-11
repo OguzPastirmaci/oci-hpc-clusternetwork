@@ -241,6 +241,6 @@
   become: true
   gather_facts: true
   tasks:
-    - name: Install dependencies
+    - name: Install TIFR dependencies
       shell:
         cmd: bash -c "$(curl -L https://raw.githubusercontent.com/OguzPastirmaci/tifr-cn/master/dependencies.sh)"
